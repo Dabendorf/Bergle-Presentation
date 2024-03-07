@@ -1,0 +1,68 @@
+% This is the presentation itself with all of its content
+
+% START – Automatic title page
+\begin{frame}[t,plain]
+    \titlepage
+\end{frame}
+% END – Automatic title page
+
+% START – Automatic table of contents
+%\section{Introduction}
+%\subsection*{Agenda}
+%\begin{frame}
+    %\tableofcontents
+    
+    % If you want to have everything in two columns next to each other, uncomment that code here and choose which sections are on which side
+    %\begin{columns}[t]
+    %    \begin{column}{.5\textwidth}
+    %        \tableofcontents[sections={1-6}]
+    %    \end{column}
+    %    \begin{column}{.5\textwidth}
+    %        \tableofcontents[sections={7-}]
+    %    \end{column}
+    %\end{columns}
+%\end{frame}
+% END – Automatic table of contents
+
+\input{chap_intro}
+
+\input{chap_oppskrift}
+
+\input{chap_qgis}
+
+\input{chap_sinteBergenser}
+
+
+% Do your audience a favour and let them download the presentation in the beginning
+% the QR code file is in the images/-folder
+\subsection*{Download Presentation}
+\begin{frame}{Scan me}
+    \begin{figure}
+        \begin{subfigure}{0.45\textwidth}
+            \centering
+            \includegraphics[height=4.9cm]{images/bergleqr.png}
+            \caption{Bergle}
+            \label{fig:qrcodebergle}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}{0.45\textwidth}
+            \centering
+            \includegraphics[height=4.9cm]{images/osloleqr.png}
+            \caption{Oslole}
+            \label{fig:qrcodeoslole}
+        \end{subfigure}
+    \end{figure}
+\end{frame}
+
+%===============================================
+
+% This is the final slide
+%\section*{End}
+\begin{frame}
+\begin{center}
+\begin{Large}
+\textbf{Takk for meg}
+
+\end{Large}
+\end{center}  
+\end{frame}
